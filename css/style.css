@@ -642,7 +642,10 @@ h1 {
    margin-left: auto;
    margin-right: auto;
    margin-top: 80px;
+}
 
+#hero>img {
+   width: 100%
 }
 
 #rooms_nav {
