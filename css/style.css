@@ -642,10 +642,11 @@ h1 {
    margin-left: auto;
    margin-right: auto;
    margin-top: 80px;
+
 }
 
 #hero>img {
-   width: 100%
+   width: 100%;
 }
 
 #rooms_nav {
@@ -695,9 +696,11 @@ h1 {
 
 #thumbnails {
    grid-area: thumbs !important;
-   /* grid-column: 2; */
-   max-height: 700px;
    overflow-y: scroll;
+}
+
+#thumbnails>* {
+   max-width: 100%;
 }
 
 #thumbnails::after {
@@ -787,7 +790,7 @@ h1 {
    background-color: white;
    color: black;
    border: solid 1px black;
-   width: 254px;
+   width: 150px;
    height: 109px;
    border-radius: 11px;
    font-size: 35px;
@@ -814,17 +817,17 @@ h1 {
    font-size: 35px;
    line-height: 100px;
    text-align: center;
-   margin-left: 60px;
+   margin-left: 30px;
 }
 
 .subtract {
    float: left;
-   margin-left: 40px;
+   margin-left: 20px;
 }
 
 .add {
    float: right;
-   margin-left: 60px;
+   margin-left: 30px;
 }
 
 #product-info>article {
@@ -886,6 +889,7 @@ h1 {
    width: 440px;
    margin-bottom: 20px;
    margin-right: 20px;
+   object-fit: cover;
 }
 
 #inspiration-grid {
